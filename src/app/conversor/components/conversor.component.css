@@ -1,0 +1,21 @@
+.panel-success{
+    background-color: rgb(232, 236, 236);
+    border-color: #404040;
+}
+
+.panel-heading {
+    background-color: #4285f4;
+    color: #ffffff ;
+    border-color: #404040;
+}
+
+.form-control{
+    margin-left: 10px;
+    margin-right: 10px;
+    border-color: #404040;
+}
+
+.btn-success{
+    background-color:#34a853 ;
+    border-color: #404040;
+}

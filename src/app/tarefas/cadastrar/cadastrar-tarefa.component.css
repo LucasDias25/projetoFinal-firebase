@@ -1,0 +1,11 @@
+.title {
+    text-align: center;
+}
+
+.btn {
+    margin-right: 10px;
+}
+
+.well, .form-control, .btn{
+    border-color: #404040;
+}

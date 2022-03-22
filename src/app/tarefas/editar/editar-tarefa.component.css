@@ -1,0 +1,24 @@
+.title {
+    text-align: center;
+}
+
+.btn {
+    margin-right: 10px;
+}
+
+.well, .form-control, .btn{
+    border-color: #404040;
+}
+
+.btn-success{
+    background-color: #34a853 ;
+}
+
+.btn-warning{
+    background-color: #fbbc50;
+}
+
+.btn-danger{
+    background-color: #ea4335;
+}
+

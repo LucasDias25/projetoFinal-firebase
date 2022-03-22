@@ -1,0 +1,56 @@
+.header-table {
+    font-size: medium;
+    background-color: #4285f4;  
+    color: #ffffff;
+    border-color: #404040;
+}
+
+.header-table-text-center {
+    font-size: medium;
+    background-color: #4285f4;  
+    color: #ffffff;  
+    text-align: center;
+    border-color: #404040;
+}
+
+
+.btn {
+    margin-right: 3px;
+    margin-left: 3px;
+    border-color: #404040;
+}
+
+.botton {
+    background-color: #f55947;
+    color: rgb(253, 253, 253);
+    border-color: #e74c3c;
+    
+}
+
+.noTask {
+    padding-bottom: 20px;
+}
+
+.btn-success{
+    background-color: #34a853 ;
+}
+
+.btn-warning{
+    background-color: #fbbc50;
+}
+
+.btn-danger{
+    background-color: #ea4335;
+}
+
+.btn-info{
+    background-color: #42adf4;
+}
+
+.table-bordered{
+    border-color: #404040;
+}
+
+.text-center, .itens{
+    border-color: #404040;
+}

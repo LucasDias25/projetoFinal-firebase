@@ -1,0 +1,11 @@
+.navbar-brand {
+    font-size:x-large;
+    font-weight: 400;
+    color: rgb(163, 163, 180);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.dropdown{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}

@@ -1,0 +1,35 @@
+.kz-btn {
+    width: 90%;
+    margin: 4px;
+    font-size: x-large;
+    font-weight: 520;
+}
+.kz-input-text {
+    margin-top: 6px;
+    width:96%;
+    height: 45px;
+	margin-left:8px;
+    font-size: x-large;
+}
+.kz-pad-20 {
+	padding: 20px;
+}
+.col-xs-3, .col-xs-9 {
+	padding: 3px;
+}
+
+.bg-primary{
+    background-color: rgb(30, 30, 30);
+}
+
+.btn-danger{
+    background-color: #ea4335 ;
+}
+
+.btn-warning{
+    background-color: #fbbc05;
+}
+
+.btn-success{
+    background-color: #34A853;
+}
