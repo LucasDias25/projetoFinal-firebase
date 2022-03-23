@@ -16,11 +16,6 @@ import { VerifyEmailComponent } from './components/verify-email/verify-email.com
 import { AuthGuard } from "./shared/guard/auth.guard";
 
 export const routes: Routes = [
-    {
-        path: '',
-        redirectTo: '/dashboard',
-        pathMatch: 'full'
-    },
     { path: '', redirectTo: '/sign-in', pathMatch: 'full' },
     { path: 'sign-in', component: SignInComponent },
     { path: 'register-user', component: SignUpComponent },
