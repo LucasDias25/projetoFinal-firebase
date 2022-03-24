@@ -1,0 +1,23 @@
+.navbar-brand{
+    padding-left: 30px;
+    margin-bottom: 40px;
+}
+
+.nav-item{
+    margin-bottom: 4px;
+}
+
+a{
+    color: rgb(30, 149, 247);
+}
+
+
+.title{
+    font-size:xx-large;
+    color: #4285f4;
+    margin-bottom: 40px;
+}
+
+.media{
+    margin-top: -90px;
+}
