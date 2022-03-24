@@ -6,7 +6,7 @@ import { AuthService } from 'src/app/shared/services/auth.service';
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.css']
 })
-export class DashboardComponent implements OnInit {
+export class AppDashboardComponent implements OnInit {
 
   constructor(
     public authService: AuthService

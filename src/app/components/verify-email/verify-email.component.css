@@ -1,0 +1,28 @@
+.displayTable{
+    text-align: center;
+    height: 90vh;
+    margin-top: -20px;
+    padding-top: 50px;
+    background-color: rgb(245, 245, 245);
+}
+
+.title{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:xx-large;
+    color: #4285f4;
+    margin-bottom: 40px;
+}
+
+.formGroup{
+    margin-top: 40px;
+}
+
+.btn{
+    color: aliceblue;
+    border-color: rgb(59, 59, 59);
+    background-color:#4285f4;
+}
+
+.redirectToLogin{
+    margin-top: 20px;
+}

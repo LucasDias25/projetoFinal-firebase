@@ -7,9 +7,11 @@ import {
   AngularFirestoreDocument,
 } from '@angular/fire/compat/firestore';
 import { Router } from '@angular/router';
+
 @Injectable({
   providedIn: 'root',
 })
+
 export class AuthService {
   userData: any; // Save logged in user data
   constructor(
@@ -37,7 +39,7 @@ export class AuthService {
       .signInWithEmailAndPassword(email, password)
       .then((result) => {
         this.ngZone.run(() => {
-          this.router.navigate(['dashboard']);
+          this.router.navigate(['home']);
         });
         this.SetUserData(result.user);
       })
@@ -78,11 +80,13 @@ export class AuthService {
         window.alert(error);
       });
   }
+
   // Returns true when user is looged in and email is verified
   get isLoggedIn(): boolean {
     const user = JSON.parse(localStorage.getItem('user')!);
     return user !== null && user.emailVerified !== false ? true : false;
   }
+
   // Sign in with Google
   GoogleAuth() {
     return this.AuthLogin(new auth.GoogleAuthProvider()).then((res: any) => {
@@ -91,13 +95,14 @@ export class AuthService {
       }
     });
   }
+  
   // Auth logic to run auth providers
   AuthLogin(provider: any) {
     return this.afAuth
       .signInWithPopup(provider)
       .then((result) => {
         this.ngZone.run(() => {
-          this.router.navigate(['dashboard']);
+          this.router.navigate(['home']);
         });
         this.SetUserData(result.user);
       })
@@ -123,6 +128,7 @@ export class AuthService {
       merge: true,
     });
   }
+
   // Sign out
   SignOut() {
     return this.afAuth.signOut().then(() => {

@@ -1,6 +1,12 @@
+.title{
+    margin-left: 20px;
+}
+
 .panel-success{
     background-color: rgb(232, 236, 236);
     border-color: #404040;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .panel-heading {
@@ -9,10 +15,16 @@
     border-color: #404040;
 }
 
+.panel-body{
+    margin-right: 20px;
+}
+
 .form-control{
     margin-left: 10px;
     margin-right: 10px;
     border-color: #404040;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 
 .btn-success{

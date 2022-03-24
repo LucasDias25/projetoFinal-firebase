@@ -40,11 +40,12 @@
                 </li>
                 
             </ul>
-            <a class="navbar-right navbar-brand dropdown" [routerLink]="['/home']">Sair</a>
+            <a class="navbar-right navbar-brand dropdown" (click)="authService.SignOut()"> Sair </a>
+            <a class="navbar-right navbar-brand dropdown" [routerLink]="['/app-dashboard']"> Perfil </a>
         </div>
     </div>
 </nav>
 
-<div class="container-fluid">
+<div class="content">
     <router-outlet></router-outlet>
 </div>
