@@ -18,7 +18,6 @@
   
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li><a class="dropdown" [routerLink]="['/home']">Inicial</a></li>
                 <li class="dropdown">
                     <a 
                         href="#" 
@@ -39,7 +38,9 @@
                         <li><a [routerLink]="['/jogo-da-velha']"> Jogo da velha </a></li>
                     </ul>
                 </li>
+                
             </ul>
+            <a class="navbar-right navbar-brand dropdown" [routerLink]="['/home']">Sair</a>
         </div>
     </div>
 </nav>

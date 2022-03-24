@@ -5,7 +5,7 @@ import { Observable } from 'rxjs'
 declare var google: any; //global genérica
 
 @Component({
-  selector: 'app-dashboard',
+  selector: 'dashboard',
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.css']
 })
