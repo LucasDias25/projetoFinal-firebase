@@ -1,5 +1,5 @@
 <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
+    <div *ngIf="authService.isLoggedIn" class="container-fluid">
         <!-- suporte a mobile -->
         <div class="navbar-header">
             <button 
@@ -44,7 +44,19 @@
             <a class="navbar-right navbar-brand dropdown" [routerLink]="['/app-dashboard']"> Perfil </a>
         </div>
     </div>
+
+    <div *ngIf="!authService.isLoggedIn" class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" [routerLink]="['']">Projeto Final</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <a class="navbar-right navbar-brand dropdown" [routerLink]="['/sign-in']"> Entrar </a>
+        </div>
+    </div>
+
 </nav>
+
+
 
 <div class="content">
     <router-outlet></router-outlet>
