@@ -44,7 +44,7 @@ export class AuthService {
         this.SetUserData(result.user);
       })
       .catch((error) => {
-        window.alert(error.message);
+        window.alert('Usuário ou senha incorretos');
       });
   }
   // Sign up with email/password
@@ -58,7 +58,7 @@ export class AuthService {
         this.SetUserData(result.user);
       })
       .catch((error) => {
-        window.alert(error.message);
+        window.alert("Verifique o endereço de email inserido e garanta que senha possui no mínimo 6 caracteres");
       });
   }
   // Send email verfificaiton when new user sign up
@@ -74,7 +74,7 @@ export class AuthService {
     return this.afAuth
       .sendPasswordResetEmail(passwordResetEmail)
       .then(() => {
-        window.alert('Password reset email sent, check your inbox.');
+        window.alert('Email para redefinir senha enviado, verifique sua caixa de entrada.');
       })
       .catch((error) => {
         window.alert(error);
